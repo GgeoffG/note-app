@@ -26,7 +26,7 @@ const readAndDelete = (deleteId, file) => {
         if (id === deleteId) parsedData.splice(i, 1);
       }
 
-      writeToFile(file, parsedData);
+      writeToFile(file, JSON.stringify(parsedData));
     }
   });
 };

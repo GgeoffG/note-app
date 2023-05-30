@@ -31,7 +31,7 @@ notes.post("/", async (req, res) => {
 
 notes.delete("/:id", async (req, res) => {
   try {
-    const deleteData = await readAndDelete(req.params.id, ".db/db.json");
+    const deleteData = await readAndDelete(req.params.id, "db/db.json");
     res.json({ message: `${deleteData} 'deleted'` });
   } catch (err) {
     res.status(500).json(err);
