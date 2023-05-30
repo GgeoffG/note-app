@@ -31,6 +31,8 @@
   
   <!-- ABOUT THE PROJECT -->
   ## About The Project
+  ### Deployed Link
+https://geoffnotetaker.herokuapp.com/notes
   ### Project Image  
   ![product-screenshot](https://github.com/GgeoffG/note-app/blob/main/images/example.png)<br>
   This app allows the user to creates notes, and is for demonstration of express knowledge, routes allow for the read and write functions to interact with a json database.
